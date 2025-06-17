@@ -17,7 +17,6 @@ export default defineConfig({
         short_name: "Norbert Register",
         description: "Registro para Norbert Wiener",
         theme_color: "#ffffff",
-
         icons: [
           {
             src: "pwa-64x64.png",

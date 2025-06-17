@@ -107,20 +107,8 @@ export const RegistrationForm: React.FC = () => {
       <div className="max-w-md mx-auto">
         {/* Logo y header */}
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center mb-4">
-            <div className="flex space-x-1">
-              <div className="w-6 h-6 bg-teal-500 transform rotate-45"></div>
-              <div className="w-6 h-6 bg-teal-600 transform rotate-45"></div>
-            </div>
-            <div className="ml-3">
-              <h1 className="text-xl font-bold text-gray-800">Universidad</h1>
-              <h2 className="text-xl font-bold text-gray-800">
-                Norbert Wiener
-              </h2>
-              <p className="text-xs text-gray-600">
-                Powered by Arizona State University
-              </p>
-            </div>
+          <div className="">
+            <img src="banner.png" />
           </div>
           <div className="w-full h-1 bg-teal-500 mb-6"></div>
 
